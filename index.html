@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Лесная Гавань — база отдыха в сосновом лесу | Московская область</title>
+  <meta name="description" content="База отдыха «Лесная Гавань» в 90 км от Москвы: дома и номера у лесного озера, баня и СПА, ресторан домашней кухни и развлечения для всей семьи.">
+  <meta name="theme-color" content="#1d3327">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Лесная Гавань — база отдыха в сосновом лесу">
+  <meta property="og:description" content="Дома и номера у лесного озера, баня и СПА, ресторан домашней кухни. 90 км от Москвы.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Лесная Гавань — на главную">
+        <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M24 3 14.5 17h5L9 30h10v5h-4v2h18v-2h-4v-5h10L28.5 17h5L24 3Z"/>
+        </svg>
+        <span class="brand__text">
+          <span class="brand__name">Лесная Гавань</span>
+          <span class="brand__sub">база отдыха</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="index.html" aria-current="page">Главная</a>
+        <a href="spa.html">СПА и баня</a>
+        <a href="restaurant.html">Ресторан</a>
+        <a href="entertainment.html">Развлечения</a>
+        <a href="contacts.html">Контакты</a>
+        <a class="nav__phone" href="tel:+74951204567">+7 (495) 120-45-67</a>
+        <a class="btn btn--primary nav__cta" href="contacts.html#booking">Забронировать</a>
+      </nav>
+
+      <a class="header__phone" href="tel:+74951204567">+7 (495) 120-45-67</a>
+      <a class="btn btn--sm header__cta" href="contacts.html#booking">Забронировать</a>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 01. Hero -->
+    <section class="hero">
+      <div class="hero__media">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80" alt="Домик у лесного озера на закате" width="1920" height="1280" fetchpriority="high" onerror="this.onerror=null;this.src='assets/img/fallback-hero.svg'">
+      </div>
+      <div class="container">
+        <div class="hero__content">
+          <div class="overline">База отдыха · Московская область</div>
+          <h1 class="hero__title">Тишина, сосны и вода</h1>
+          <p class="hero__lead">Загородный отдых в 90 км от Москвы: уютные дома, баня на берегу, ресторан домашней кухни и лес, в котором хочется остаться подольше.</p>
+          <div class="hero__actions">
+            <a class="btn btn--light" href="contacts.html#booking">Забронировать</a>
+            <a class="btn btn--ghost" href="#rooms">Смотреть номера</a>
+          </div>
+          <p class="hero__note">Заезд с 15:00 · Выезд до 12:00</p>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">Листайте</div>
+    </section>
+
+    <!-- 02. Преимущества -->
+    <section class="benefits" aria-label="Преимущества базы">
+      <div class="container">
+        <div class="benefits__grid">
+          <div class="benefit">
+            <span class="benefit__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-6 8h4l-5 7h14l-5-7h4l-6-8Z"/><path d="M12 18v3"/></svg>
+            </span>
+            <span><strong>4 га соснового леса</strong><span>Своя территория у озера</span></span>
+          </div>
+          <div class="benefit">
+            <span class="benefit__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0"/><path d="M3 14c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0"/><path d="M3 20c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0"/></svg>
+            </span>
+            <span><strong>Баня и СПА</strong><span>Пар, массаж, купель</span></span>
+          </div>
+          <div class="benefit">
+            <span class="benefit__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v7a2 2 0 0 0 2 2v9"/><path d="M7 3v4M11 3v4"/><path d="M16 3c-1 2-1.5 4-1.5 6.5 0 2 1 3 2.5 3V21"/></svg>
+            </span>
+            <span><strong>Ресторан</strong><span>Завтраки включены</span></span>
+          </div>
+          <div class="benefit">
+            <span class="benefit__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 17V8h3a3 3 0 0 1 0 6h-3"/></svg>
+            </span>
+            <span><strong>Бесплатная парковка</strong><span>Для гостей базы</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. О базе -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__media reveal">
+          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" alt="Сосновый лес на территории базы отдыха" width="800" height="1000" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Лесное озеро в утреннем тумане" width="600" height="800" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+        </div>
+        <div class="about__text reveal" data-delay="1">
+          <div class="overline">О базе</div>
+          <h2 class="section-title">Место, где время замедляется</h2>
+          <p>«Лесная Гавань» — семейная база отдыха на берегу лесного озера. Здесь нет шумных дискотек и суеты: только сосны, вода, запах дров и неспешные завтраки на веранде.</p>
+          <p>Мы принимаем гостей круглый год. Летом купаемся и катаемся на лодках, зимой топим баню и гуляем по снежному лесу. А вечером все собираются у костра — знакомиться, разговаривать и смотреть на звёзды.</p>
+          <div class="stats">
+            <div class="stat"><strong>12</strong><span>домов и номеров</span></div>
+            <div class="stat"><strong>4 га</strong><span>своей территории</span></div>
+            <div class="stat"><strong>90 км</strong><span>от Москвы</span></div>
+            <div class="stat"><strong>365</strong><span>дней в году</span></div>
+          </div>
+          <div class="about__actions">
+            <a class="link-arrow" href="#rooms">Посмотреть размещение
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. Номера -->
+    <section class="section section--sand" id="rooms">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__text">
+            <div class="overline">Размещение</div>
+            <h2 class="section-title">Дома и номера</h2>
+            <p class="section-lead">Двенадцать вариантов размещения — от компактных номеров для двоих до просторных домов для большой семьи.</p>
+          </div>
+          <a class="link-arrow" href="contacts.html#booking">Подобрать вариант
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="rooms">
+          <article class="room reveal">
+            <div class="room__media">
+              <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80" alt="Номер категории «Стандарт» с двуспальной кроватью" width="900" height="675" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+            </div>
+            <div class="room__body">
+              <h3 class="room__title">Стандарт</h3>
+              <div class="room__meta"><span>2 гостя</span><span>18 м²</span><span>вид на лес</span></div>
+              <ul class="room__features">
+                <li>Двуспальная кровать</li>
+                <li>Санузел с душем</li>
+                <li>Wi-Fi и телевизор</li>
+                <li>Завтрак включён</li>
+              </ul>
+              <div class="room__footer">
+                <div class="room__price"><strong>5 900 ₽</strong><span>за сутки</span></div>
+                <a class="btn btn--outline btn--sm" href="contacts.html?room=standard#booking">Забронировать</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="room reveal" data-delay="1">
+            <div class="room__media">
+              <span class="room__badge">Популярный</span>
+              <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80" alt="Люкс с террасой и панорамными окнами" width="900" height="675" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+            </div>
+            <div class="room__body">
+              <h3 class="room__title">Люкс с террасой</h3>
+              <div class="room__meta"><span>2–3 гостя</span><span>32 м²</span><span>терраса</span></div>
+              <ul class="room__features">
+                <li>Панорамные окна</li>
+                <li>Ванна и душ</li>
+                <li>Мини-кухня</li>
+                <li>Завтрак включён</li>
+              </ul>
+              <div class="room__footer">
+                <div class="room__price"><strong>9 400 ₽</strong><span>за сутки</span></div>
+                <a class="btn btn--outline btn--sm" href="contacts.html?room=lux#booking">Забронировать</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="room reveal" data-delay="2">
+            <div class="room__media">
+              <span class="room__badge">У воды</span>
+              <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=900&q=80" alt="Дом у озера с собственной террасой" width="900" height="675" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+            </div>
+            <div class="room__body">
+              <h3 class="room__title">Дом у озера</h3>
+              <div class="room__meta"><span>до 6 гостей</span><span>64 м²</span><span>2 спальни</span></div>
+              <ul class="room__features">
+                <li>Камин</li>
+                <li>Кухня и посуда</li>
+                <li>Своя терраса и мангал</li>
+                <li>Завтрак включён</li>
+              </ul>
+              <div class="room__footer">
+                <div class="room__price"><strong>14 800 ₽</strong><span>за сутки</span></div>
+                <a class="btn btn--outline btn--sm" href="contacts.html?room=house#booking">Забронировать</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. СПА -->
+    <section class="section" id="spa">
+      <div class="container split">
+        <div class="split__media reveal">
+          <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1000&q=80" alt="Спа-процедура с массажем и тёплым маслом" width="1000" height="800" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          <span class="split__tag">Баня на дровах</span>
+        </div>
+        <div class="split__content reveal" data-delay="1">
+          <div class="overline">СПА и баня</div>
+          <h2 class="section-title">Пар, вода и тишина</h2>
+          <p>Русская баня на дровах, финская сауна, кедровая бочка и массаж — всё, чтобы вернуть телу лёгкость, а голове — тишину. После парной — купель, травяной чай и полчаса ничегонеделания на веранде.</p>
+          <ul class="checklist">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Русская баня на дровах</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Массажи и спа-ритуалы</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Купель и открытый бассейн</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Чайная комната</li>
+          </ul>
+          <a class="btn btn--primary" href="spa.html">Подробнее о СПА</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06. Ресторан -->
+    <section class="section section--sand" id="restaurant">
+      <div class="container split split--reverse">
+        <div class="split__media reveal">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Уютный интерьер ресторана с деревянными столами" width="1000" height="800" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          <span class="split__tag">Веранда у озера</span>
+        </div>
+        <div class="split__content reveal" data-delay="1">
+          <div class="overline">Ресторан</div>
+          <h2 class="section-title">Домашняя кухня и лесные завтраки</h2>
+          <p>Готовим из местных продуктов: деревенские сыры, свежая рыба, овощи с огорода и хлеб собственной выпечки. Завтрак для гостей включён в стоимость проживания — с видом на озеро он особенно вкусный.</p>
+          <ul class="checklist">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Завтраки с 8:00 до 11:00</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Свежая рыба и местные продукты</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Детское меню</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Веранда с видом на озеро</li>
+          </ul>
+          <a class="btn btn--primary" href="restaurant.html">Меню и бронирование</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07. Развлечения -->
+    <section class="section" id="entertainment">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__text">
+            <div class="overline">Развлечения</div>
+            <h2 class="section-title">Чем заняться в лесу</h2>
+            <p class="section-lead">Можно ничего не делать — и это тоже отличный план. А если захочется движения, найдётся занятие на воде, на тропе и у костра.</p>
+          </div>
+          <a class="link-arrow" href="entertainment.html">Все развлечения
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="activities">
+          <article class="activity reveal">
+            <span class="activity__num" aria-hidden="true">01</span>
+            <span class="activity__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0"/><path d="M3 14c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0"/><path d="M3 20c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0"/></svg>
+            </span>
+            <h3>На воде</h3>
+            <p>Лодки, сапборды и рыбалка на лесном озере. Прокат работает с мая по октябрь, снасти и спасжилеты — на месте.</p>
+            <div class="activity__price">от 500 ₽ / час</div>
+          </article>
+
+          <article class="activity reveal" data-delay="1">
+            <span class="activity__num" aria-hidden="true">02</span>
+            <span class="activity__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="m5.5 17.5 4-8h5l4 8M9.5 9.5h5M13 5h3"/></svg>
+            </span>
+            <h3>Активный отдых</h3>
+            <p>Квадроциклы, велосипеды и лесные тропы. Маршруты для любого уровня — от получасовой прогулки до полудня в седле.</p>
+            <div class="activity__price">от 400 ₽ / час</div>
+          </article>
+
+          <article class="activity reveal" data-delay="2">
+            <span class="activity__num" aria-hidden="true">03</span>
+            <span class="activity__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5s1.2 2 3.5 2 3.5-2 3.5-2"/><path d="M9 9.5h.01M15 9.5h.01"/></svg>
+            </span>
+            <h3>Для детей</h3>
+            <p>Игровая площадка, анимация по выходным и кино под открытым небом. Родители в это время могут выдохнуть.</p>
+            <div class="activity__price">бесплатно для гостей</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08. Отзывы -->
+    <section class="section section--sand" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__text">
+            <div class="overline">Отзывы</div>
+            <h2 class="section-title">Что говорят гости</h2>
+            <p class="section-lead">Собираем обратную связь после каждой поездки — так мы понимаем, что нравится, а что стоит улучшить.</p>
+          </div>
+        </div>
+
+        <div class="reviews">
+          <article class="review reveal">
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>«Приехали на выходные и не заметили, как остались на три дня. Дом у озера — отдельная любовь: утром туман над водой, вечером камин».</blockquote>
+            <div class="review__author" data-initials="АК">
+              <div><strong>Анна</strong><span>Москва · июль 2026</span></div>
+            </div>
+          </article>
+
+          <article class="review reveal" data-delay="1">
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>«Баня здесь лучшая, что я видел за последние годы. Пар мягкий, после — купель и травяной чай. Приеду ещё, уже с друзьями».</blockquote>
+            <div class="review__author" data-initials="ДС">
+              <div><strong>Дмитрий</strong><span>Санкт-Петербург · февраль 2026</span></div>
+            </div>
+          </article>
+
+          <article class="review reveal" data-delay="2">
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>«Были с двумя детьми: анимация, площадка, детское меню. Родители тоже отдохнули — это главное. Вернёмся на зимние каникулы».</blockquote>
+            <div class="review__author" data-initials="СК">
+              <div><strong>Семья Кузнецовых</strong><span>Московская область · август 2026</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="reviews__footer reveal">
+          <span class="reviews__score">4,9</span>
+          <span>средняя оценка гостей на Яндекс Путешествиях и Островке</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09. Галерея -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__text">
+            <div class="overline">Атмосфера</div>
+            <h2 class="section-title">Несколько кадров</h2>
+            <p class="section-lead">Сосны, вода, пар и еда — то, из чего складывается отдых в «Лесной Гавани».</p>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <button class="gallery__item reveal" type="button" data-lightbox aria-label="Открыть фото: сосновый лес">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" alt="Солнечный свет в сосновом лесу" width="800" height="1066" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          </button>
+          <button class="gallery__item reveal" type="button" data-delay="1" data-lightbox aria-label="Открыть фото: озеро">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Лесное озеро в горах" width="800" height="1066" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          </button>
+          <button class="gallery__item reveal" type="button" data-delay="2" data-lightbox aria-label="Открыть фото: спа">
+            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" alt="Спа-ритуал с маслами и полотенцами" width="800" height="1066" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          </button>
+          <button class="gallery__item reveal" type="button" data-delay="3" data-lightbox aria-label="Открыть фото: блюдо ресторана">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" alt="Блюдо из сезонных продуктов в ресторане" width="800" height="1066" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Бронирование -->
+    <section class="cta" id="booking">
+      <div class="container cta__grid">
+        <div class="reveal">
+          <div class="overline">Бронирование</div>
+          <h2 class="section-title">Забронировать отдых</h2>
+          <p class="cta__lead">Оставьте заявку — перезвоним в течение 15 минут, подберём даты и расскажем, что происходит на базе в выбранные выходные.</p>
+          <div class="contact-lines">
+            <div class="contact-line">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+              <div><span>Телефон</span><a href="tel:+74951204567">+7 (495) 120-45-67</a></div>
+            </div>
+            <div class="contact-line">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <div><span>Почта</span><a href="mailto:stay@lesnaya-gavan.ru">stay@lesnaya-gavan.ru</a></div>
+            </div>
+            <div class="contact-line">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <div><span>Адрес</span><p>Московская обл., Рузский г. о., д. Сосновка, ул. Лесная, 12</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card reveal" data-delay="1">
+          <h3 class="form-card__title">Оставьте заявку</h3>
+          <p class="form-card__sub">Это займёт меньше минуты.</p>
+
+          <form class="form-grid" data-demo-form>
+            <div class="field">
+              <label for="name">Имя</label>
+              <input id="name" name="name" type="text" placeholder="Как к вам обращаться" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="phone">Телефон</label>
+              <input id="phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" pattern="[0-9+()\-\s]{10,20}" required>
+            </div>
+            <div class="field">
+              <label for="checkin">Заезд</label>
+              <input id="checkin" name="checkin" type="date" required>
+            </div>
+            <div class="field">
+              <label for="checkout">Выезд</label>
+              <input id="checkout" name="checkout" type="date" required>
+            </div>
+            <div class="field">
+              <label for="guests">Гости</label>
+              <select id="guests" name="guests" required>
+                <option value="" selected disabled>Выберите</option>
+                <option value="1">1 гость</option>
+                <option value="2">2 гостя</option>
+                <option value="3-4">3–4 гостя</option>
+                <option value="5-6">5–6 гостей</option>
+                <option value="6+">Больше 6</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="room">Размещение</label>
+              <select id="room" name="room">
+                <option value="">Подберите вместе</option>
+                <option value="standard">Стандарт</option>
+                <option value="lux">Люкс с террасой</option>
+                <option value="house">Дом у озера</option>
+              </select>
+            </div>
+            <div class="field field--full">
+              <label for="comment">Комментарий</label>
+              <textarea id="comment" name="comment" placeholder="Дети, животные, особые пожелания"></textarea>
+            </div>
+            <label class="checkbox field--full">
+              <input type="checkbox" required>
+              <span>Согласен с <a href="privacy.html">политикой конфиденциальности</a> и обработкой персональных данных.</span>
+            </label>
+            <div class="field field--full">
+              <button class="btn btn--primary btn--block" type="submit">Отправить заявку</button>
+            </div>
+          </form>
+
+          <div class="form-success" hidden tabindex="-1">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>
+            <strong>Спасибо! Заявка у нас.</strong>
+            <p>Перезвоним в течение 15 минут в рабочее время. Если нужно срочно — звоните: +7 (495) 120-45-67.</p>
+            <button type="button" data-form-reset>Отправить ещё одну</button>
+          </div>
+
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии">
+    <button class="lightbox__close" type="button" aria-label="Закрыть">×</button>
+    <img src="assets/img/fallback.svg" alt="">
+  </dialog>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="Лесная Гавань — на главную">
+            <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M24 3 14.5 17h5L9 30h10v5h-4v2h18v-2h-4v-5h10L28.5 17h5L24 3Z"/>
+            </svg>
+            <span class="brand__text">
+              <span class="brand__name">Лесная Гавань</span>
+              <span class="brand__sub">база отдыха</span>
+            </span>
+          </a>
+          <p class="footer__about">Загородная база отдыха на берегу лесного озера. Дома, баня, ресторан и 4 гектара соснового леса.</p>
+          <div class="socials">
+            <a href="https://t.me/" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://vk.com/" target="_blank" rel="noopener">VK</a>
+            <a href="https://wa.me/74951204567" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Навигация</h3>
+          <ul>
+            <li><a href="index.html#about">О базе</a></li>
+            <li><a href="index.html#rooms">Номера</a></li>
+            <li><a href="spa.html">СПА и баня</a></li>
+            <li><a href="restaurant.html">Ресторан</a></li>
+            <li><a href="entertainment.html">Развлечения</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Контакты</h3>
+          <ul class="footer__contacts">
+            <li><a href="tel:+74951204567">+7 (495) 120-45-67</a></li>
+            <li><a href="mailto:stay@lesnaya-gavan.ru">stay@lesnaya-gavan.ru</a></li>
+            <li>Московская обл., Рузский г. о.,<br>д. Сосновка, ул. Лесная, 12</li>
+            <li><a href="contacts.html">Как добраться</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Режим работы</h3>
+          <p class="footer__hours"><strong>Заезд:</strong> с 15:00<br><strong>Выезд:</strong> до 12:00<br><strong>Ресепшен:</strong> круглосуточно<br><strong>Ресторан:</strong> 8:00–23:00</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> База отдыха «Лесная Гавань»</span>
+        <a href="privacy.html">Политика конфиденциальности</a>
+        <span>Московская область</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

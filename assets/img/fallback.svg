@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="900" fill="#efe7d8"/>
+  <circle cx="600" cy="400" r="215" fill="#f6f1e7"/>
+  <rect x="578" y="545" width="44" height="70" rx="5" fill="#2c4a37"/>
+  <path fill="#2c4a37" d="M600 420 470 560h260L600 420Z"/>
+  <path fill="#2c4a37" d="M600 320 505 470h190L600 320Z"/>
+  <path fill="#2c4a37" d="M600 250 535 370h130L600 250Z"/>
+  <text x="600" y="716" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#2c4a37">Лесная Гавань</text>
+  <text x="600" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" letter-spacing="7" fill="#6b7a6e">ФОТО СКОРО ПОЯВИТСЯ</text>
+</svg>

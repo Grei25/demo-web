@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ресторан «Сосны» — Лесная Гавань | Домашняя кухня и завтраки</title>
+  <meta name="description" content="Ресторан «Сосны» на базе отдыха «Лесная Гавань»: домашняя кухня, сезонное меню, завтраки для гостей и веранда с видом на озеро. Банкеты до 60 гостей.">
+  <meta name="theme-color" content="#1d3327">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Ресторан «Сосны» — Лесная Гавань">
+  <meta property="og:description" content="Домашняя кухня, сезонное меню и веранда с видом на озеро. Банкеты до 60 гостей.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Лесная Гавань — на главную">
+        <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M24 3 14.5 17h5L9 30h10v5h-4v2h18v-2h-4v-5h10L28.5 17h5L24 3Z"/>
+        </svg>
+        <span class="brand__text">
+          <span class="brand__name">Лесная Гавань</span>
+          <span class="brand__sub">база отдыха</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="spa.html">СПА и баня</a>
+        <a href="restaurant.html" aria-current="page">Ресторан</a>
+        <a href="entertainment.html">Развлечения</a>
+        <a href="contacts.html">Контакты</a>
+        <a class="nav__phone" href="tel:+74951204567">+7 (495) 120-45-67</a>
+        <a class="btn btn--primary nav__cta" href="contacts.html#booking">Забронировать</a>
+      </nav>
+
+      <a class="header__phone" href="tel:+74951204567">+7 (495) 120-45-67</a>
+      <a class="btn btn--sm header__cta" href="contacts.html#booking">Забронировать</a>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-hero__media">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1920&q=80" alt="Интерьер ресторана с деревянными столами и мягким светом" width="1920" height="1280" fetchpriority="high" onerror="this.onerror=null;this.src='assets/img/fallback-hero.svg'">
+      </div>
+      <div class="container">
+        <div class="page-hero__content">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <a href="index.html">Главная</a><span>/</span><span>Ресторан</span>
+          </nav>
+          <h1>Ресторан «Сосны»</h1>
+          <p>Домашняя кухня, лесные завтраки и веранда с видом на озеро. Готовим из местных продуктов и меняем меню вслед за сезоном.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="split__media reveal">
+          <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=80" alt="Зал ресторана с деревянной мебелью и растениями" width="1000" height="800" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          <span class="split__tag">Веранда у озера</span>
+        </div>
+        <div class="split__content reveal" data-delay="1">
+          <div class="overline">О ресторане</div>
+          <h2 class="section-title">Кухня, которая помнит дом</h2>
+          <p>Мы готовим просто и честно: местные продукты, сезонные овощи, свежая рыба и хлеб, который печём сами каждое утро. Меню меняется четыре раза в год — вслед за сезоном.</p>
+          <blockquote class="chef-quote">
+            «Мы не изобретаем кухню заново. Просто берём хорошие продукты и готовим так, как готовили бы для своих».
+            <cite>Артём Лебедев, шеф-повар</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--sand" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__text">
+            <div class="overline">Меню</div>
+            <h2 class="section-title">Что попробовать</h2>
+            <p class="section-lead">Небольшая подборка из сезонного меню. Полная версия — в ресторане, детские порции — по запросу.</p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-col reveal">
+            <h3>Завтраки</h3>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Сырники с ягодным вареньем</span><span class="menu-item__desc">Из фермерского творога, со сметаной</span></div>
+              <span class="menu-item__price">390 ₽</span>
+            </div>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Овсяная каша с печёным яблоком</span><span class="menu-item__desc">На молоке или воде, с корицей</span></div>
+              <span class="menu-item__price">290 ₽</span>
+            </div>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Омлет с зеленью и сыром</span><span class="menu-item__desc">Из трёх яиц, с тостом и салатом</span></div>
+              <span class="menu-item__price">350 ₽</span>
+            </div>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Блины с творогом</span><span class="menu-item__desc">С домашним творогом и мёдом</span></div>
+              <span class="menu-item__price">320 ₽</span>
+            </div>
+          </div>
+
+          <div class="menu-col reveal" data-delay="1">
+            <h3>Горячее</h3>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Уха из судака</span><span class="menu-item__desc">На костре, с картофелем и зеленью</span></div>
+              <span class="menu-item__price">590 ₽</span>
+            </div>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Щёки с картофельным пюре</span><span class="menu-item__desc">Томлёные, с лесными грибами</span></div>
+              <span class="menu-item__price">890 ₽</span>
+            </div>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Курица на углях</span><span class="menu-item__desc">С овощами гриль и соусом из трав</span></div>
+              <span class="menu-item__price">740 ₽</span>
+            </div>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Паста с лесными грибами</span><span class="menu-item__desc">В сливочном соусе, с пармезаном</span></div>
+              <span class="menu-item__price">650 ₽</span>
+            </div>
+          </div>
+
+          <div class="menu-col reveal" data-delay="2">
+            <h3>Десерты</h3>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Медовик</span><span class="menu-item__desc">По семейному рецепту, со сметаной</span></div>
+              <span class="menu-item__price">350 ₽</span>
+            </div>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Шарлотка с мороженым</span><span class="menu-item__desc">С яблоками из нашего сада</span></div>
+              <span class="menu-item__price">390 ₽</span>
+            </div>
+            <div class="menu-item">
+              <div><span class="menu-item__name">Облепиховый чизкейк</span><span class="menu-item__desc">С облепиховым соусом и сливками</span></div>
+              <span class="menu-item__price">420 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="menu-note">Завтраки включены в стоимость проживания и подаются с 8:00 до 11:00. Ресторан открыт ежедневно до 23:00.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split split--reverse">
+        <div class="split__media reveal">
+          <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1000&q=80" alt="Гости за большим столом на праздничном ужине" width="1000" height="800" loading="lazy" onerror="this.onerror=null;this.src='assets/img/fallback.svg'">
+          <span class="split__tag">До 60 гостей</span>
+        </div>
+        <div class="split__content reveal" data-delay="1">
+          <div class="overline">Мероприятия</div>
+          <h2 class="section-title">Банкеты и события</h2>
+          <p>День рождения, свадьба, корпоратив или просто большой семейный ужин. Соберём меню под вас, украсим зал и поможем с организацией — от торта до трансфера.</p>
+          <ul class="checklist">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>До 60 гостей в основном зале</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Веранда с видом на озеро</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Каминный зал для небольших компаний</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Своё меню и декор</li>
+          </ul>
+          <a class="btn btn--primary" href="contacts.html#booking">Обсудить мероприятие</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-strip reveal">
+          <div>
+            <h2>Забронировать стол</h2>
+            <p>Ресторан открыт ежедневно с 8:00 до 23:00. Кухня работает до 22:30.</p>
+          </div>
+          <div class="cta-strip__actions">
+            <a class="btn btn--primary" href="tel:+74951204567">+7 (495) 120-45-67</a>
+            <a class="btn btn--outline" href="contacts.html#booking">Оставить заявку</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="Лесная Гавань — на главную">
+            <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M24 3 14.5 17h5L9 30h10v5h-4v2h18v-2h-4v-5h10L28.5 17h5L24 3Z"/>
+            </svg>
+            <span class="brand__text">
+              <span class="brand__name">Лесная Гавань</span>
+              <span class="brand__sub">база отдыха</span>
+            </span>
+          </a>
+          <p class="footer__about">Загородная база отдыха на берегу лесного озера. Дома, баня, ресторан и 4 гектара соснового леса.</p>
+          <div class="socials">
+            <a href="https://t.me/" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://vk.com/" target="_blank" rel="noopener">VK</a>
+            <a href="https://wa.me/74951204567" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Навигация</h3>
+          <ul>
+            <li><a href="index.html#about">О базе</a></li>
+            <li><a href="index.html#rooms">Номера</a></li>
+            <li><a href="spa.html">СПА и баня</a></li>
+            <li><a href="restaurant.html">Ресторан</a></li>
+            <li><a href="entertainment.html">Развлечения</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Контакты</h3>
+          <ul class="footer__contacts">
+            <li><a href="tel:+74951204567">+7 (495) 120-45-67</a></li>
+            <li><a href="mailto:stay@lesnaya-gavan.ru">stay@lesnaya-gavan.ru</a></li>
+            <li>Московская обл., Рузский г. о.,<br>д. Сосновка, ул. Лесная, 12</li>
+            <li><a href="contacts.html">Как добраться</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Режим работы</h3>
+          <p class="footer__hours"><strong>Заезд:</strong> с 15:00<br><strong>Выезд:</strong> до 12:00<br><strong>Ресепшен:</strong> круглосуточно<br><strong>Ресторан:</strong> 8:00–23:00</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> База отдыха «Лесная Гавань»</span>
+        <a href="privacy.html">Политика конфиденциальности</a>
+        <span>Московская область</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
